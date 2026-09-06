@@ -71,96 +71,47 @@
 
 ### 🏠 Real Estate Transaction Platform
 
-A full-stack real estate platform designed to connect property buyers and sellers.
-Users can publish listings, search for properties, explore locations on an interactive map and communicate directly through real-time messaging.
+A full-stack real estate platform that connects property buyers and sellers through listings, search, interactive maps and real-time communication.
 
-#### ✨ Core Features
-
-* 🏘️ Create and manage real estate listings with detailed property information and images
-* 🔎 Search and filter properties based on multiple criteria
-* 🗺️ Interactive property map powered by Leaflet / React-Leaflet
-* 💬 Real-time messaging between buyers and sellers using Socket.io
-* 🔐 User registration, authentication and role-based authorization using JWT
-* 🖼️ Property image upload and media management through Cloudinary
-* 🔔 Real-time notifications for user activities
-* 💾 Save properties, comments and property reports
-* 🛠️ Admin management for users, properties, reports and system activity
-* 📱 Responsive frontend built with Next.js and React
-
-#### ⚙️ Technical Highlights
-
-* Structured the backend using a layered architecture with controllers, services and routes
-* Designed RESTful APIs for authentication, users, properties, conversations and notifications
-* Used Prisma ORM with PostgreSQL for relational data management
-* Implemented JWT authentication with access and refresh token mechanisms
-* Secured refresh tokens using HTTP-only cookies
-* Implemented real-time communication and notifications with Socket.io
-* Integrated Redis for caching and Socket.io infrastructure
-* Integrated Cloudinary for property image storage and management
-* Built form validation using React Hook Form and Zod
-* Managed server state with TanStack Query and client-side state with Zustand
-* Organized the project using separate frontend and backend applications
+- 🏘️ Create, manage, search and filter property listings
+- 🗺️ Interactive property map with Leaflet / React-Leaflet
+- 💬 Real-time messaging and notifications using Socket.io
+- 🔐 JWT authentication with access/refresh token flow
+- 💾 Saved properties, comments and property reports
+- 🛠️ Admin management for users, properties and reports
+- ⚡ Redis caching and Cloudinary image management
 
 #### 🛠 Tech Stack
 
-`Next.js 16` `React 19` `TypeScript` `Node.js` `Express.js`
-`PostgreSQL` `Prisma` `Socket.io` `Redis` `Cloudinary`
-`Leaflet` `TanStack Query` `Zustand` `React Hook Form` `Zod` `Tailwind CSS`
+`Next.js` `React` `TypeScript` `Node.js` `Express.js`  
+`PostgreSQL` `Prisma` `Redis` `Socket.io` `Cloudinary`  
+`Leaflet` `TanStack Query` `Zustand` `Zod`
 
-🔗 [Live Demo](https://real-estate-transaction-platform.vercel.app/) 
-📂 [View Repository](https://github.com/Longdev1701/Real_Estate_Transaction_Platform)
+🔗 [Live Demo](https://real-estate-transaction-platform.vercel.app/) ·
+📂 [Repository](https://github.com/Longdev1701/Real_Estate_Transaction_Platform)
 
 ---
 
 ### 🏖️ Villa Booking Website
 
-A full-stack villa and accommodation booking platform that allows users to discover properties, check availability, make reservations and complete payments online.
+A full-stack villa booking platform for discovering accommodations, checking availability, making reservations and completing online payments.
 
-The system also provides an administration dashboard for managing accommodations, bookings, users and system activities.
-
-#### ✨ Core Features
-
-* 🏡 Browse villas and accommodations by location, room type, amenities, capacity and budget
-* 🔍 View detailed accommodation information, images, policies and availability
-* 📅 Booking and reservation workflow with availability checking
-* 💳 Online payment integration using VNPAY Sandbox
-* 👤 User registration, login, logout and profile management
-* 🛠️ Administration dashboard for:
-
-  * Accommodation management
-  * Booking management
-  * User management
-  * Reports and statistics
-  * System activity logs
-* 🤖 AI-assisted accommodation chatbot
-* 🧠 Natural-language query parsing using Groq API
-* 🔎 Search accommodations based on natural-language queries
-* 🔄 Rule-based fallback parser when AI services are unavailable
-* 📧 Consultation request emails using Resend
-
-#### ⚙️ Technical Highlights
-
-* Built with Next.js App Router using full-stack API routes
-* Designed APIs for authentication, accommodation, booking and payment workflows
-* Implemented relational data models using Prisma and PostgreSQL
-* Integrated PostgreSQL through Supabase
-* Implemented booking availability logic to prevent conflicting reservations
-* Designed the booking workflow from accommodation selection to reservation and payment
-* Integrated VNPAY payment return handling
-* Integrated Groq API for natural-language accommodation search
-* Implemented a rule-based fallback mechanism when the AI service is unavailable
-* Implemented transactional email functionality through Resend
-* Managed environment secrets using `.env` configuration
-* Structured business logic separately from UI components and API routes
+- 🏡 Search and browse villas by location, capacity, amenities and budget
+- 📅 Booking workflow with availability and reservation conflict checking
+- 💳 Online payment integration using VNPAY
+- 👤 Authentication and user profile management
+- 🛠️ Admin dashboard for accommodations, bookings, users and reports
+- 🤖 AI-assisted villa search using Groq API with rule-based fallback
+- 📧 Consultation and transactional email integration with Resend
 
 #### 🛠 Tech Stack
 
-`Next.js 16` `React 19` `TypeScript` `Tailwind CSS`
-`PostgreSQL` `Supabase` `Prisma 7`
+`Next.js` `React` `TypeScript` `Tailwind CSS`  
+`PostgreSQL` `Supabase` `Prisma`  
 `VNPAY` `Groq API` `Resend`
 
-🔗 [Live Demo](https://villa-booking-website-z76q.vercel.app/)
-📂 [View Repository](https://github.com/Longdev1701/villa_booking-website)
+🔗 [Live Demo](https://villa-booking-website-z76q.vercel.app/) ·
+📂 [Repository](https://github.com/Longdev1701/villa_booking-website)
 
 ---
 
