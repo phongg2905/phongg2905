@@ -164,39 +164,6 @@ The system also provides an administration dashboard for managing accommodations
 
 ---
 
-### 📦 Order Management System
-
-A backend-focused order management system designed to handle the lifecycle of orders and individual order items while maintaining consistent business rules and database state.
-
-#### ✨ Core Features
-
-* 📦 Create and manage customer orders
-* 🔄 Manage order lifecycle and status transitions
-* 🧾 Manage individual items associated with each order
-* 💰 Support payment-related workflows
-* 🔐 Validate business rules before order status changes
-* 🗄️ Persist order and order-item data through relational database models
-
-#### ⚙️ Technical Highlights
-
-* Separated order and order-item responsibilities into dedicated domain models
-* Designed RESTful APIs for order and order-item management
-* Implemented business rules around order status transitions
-* Maintained database consistency when updating order states
-* Created and updated database migrations as the order model evolved
-* Refactored order handling logic to maintain clearer domain boundaries
-* Worked with pull-request based development and code review
-
-#### 🛠 Focus Areas
-
-`Backend Development` `REST API` `Database Design`
-`Order Lifecycle` `Business Logic` `Database Migration`
-
-📂 [View Repository](https://github.com/phongg2905/Order)
-
-
----
-
 ## 📊 GitHub Analytics
 
 <div align="center">
