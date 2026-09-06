@@ -110,7 +110,6 @@ A full-stack villa booking platform for discovering accommodations, checking ava
 `PostgreSQL` `Supabase` `Prisma`  
 `VNPAY` `Groq API` `Resend`
 
-🔗 [Live Demo](https://villa-booking-website-z76q.vercel.app/) ·
 📂 [Repository](https://github.com/Longdev1701/villa_booking-website)
 
 ---
