@@ -86,7 +86,6 @@ A full-stack real estate platform that connects property buyers and sellers thro
 `PostgreSQL` `Prisma` `Redis` `Socket.io` `Cloudinary`  
 `Leaflet` `TanStack Query` `Zustand` `Zod`
 
-🔗 [Live Demo](https://real-estate-transaction-platform.vercel.app/) ·
 📂 [Repository](https://github.com/Longdev1701/Real_Estate_Transaction_Platform)
 
 ---
