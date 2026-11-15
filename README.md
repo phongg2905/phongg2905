@@ -9,8 +9,6 @@
 ![Focus](https://img.shields.io/badge/Focus-Backend_Engineering-82579C?style=flat-square&labelColor=26222F)
 ![Mindset](https://img.shields.io/badge/Mindset-Code_·_Build_·_Learn-82579C?style=flat-square&labelColor=26222F)
 
-![Profile views](https://komarev.com/ghpvc/?username=phongg2905&label=Profile+views&color=82579C&style=flat-square)
-
 [![GitHub](https://img.shields.io/badge/GitHub-Repositories-82579C?style=flat-square&logo=github&logoColor=white&labelColor=26222F)](https://github.com/phongg2905?tab=repositories)
 [![Email](https://img.shields.io/badge/Email-Contact-82579C?style=flat-square&logo=gmail&logoColor=white&labelColor=26222F)](mailto:phamphong20092005@gmail.com)
 
@@ -182,5 +180,7 @@ Let's talk about backend systems, web applications, or a project you're building
 <div align="center">
 
 **✦ Build. Learn. Improve. Repeat. ✦**
+
+![Profile views](https://komarev.com/ghpvc/?username=phongg2905&label=Profile+views&color=82579C&style=flat-square)
 
 </div>
